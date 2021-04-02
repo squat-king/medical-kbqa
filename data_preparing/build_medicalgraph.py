@@ -171,8 +171,7 @@ class MedicalGraph:
     def create_node(self, label, nodes):
         count = 0
         for node_name in nodes:
-            node = Node(label, name=node_name)
-            self.g.create(node)
+            self.g.run('MERGE (e:%s{name:"%s"})' % (label, node_name))
             count += 1
             print(label, count, len(nodes))
         return
