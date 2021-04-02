@@ -1,6 +1,6 @@
 # medical-kbqa
 Medical question answering system based on knowledge mapping and NLP
-
+基于知识图谱和NLP的智能问答系统
 # Author: jhz(Kevin)
 # Email：jhzsdufe@163.com
 # Date: 2021-4-01
